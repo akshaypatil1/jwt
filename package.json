@@ -1,0 +1,33 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "API with JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaypatil1/jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "api"
+  ],
+  "author": "Akshay Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaypatil1/jwt/issues"
+  },
+  "homepage": "https://github.com/akshaypatil1/jwt#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "restify": "^8.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
